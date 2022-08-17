@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const conexao = async () => {
-    var atlas = await mongoose.connect('mongodb+srv://admin:admin123456@fiap-tecnico.dsp0j.mongodb.net/at2')
+    var atlas = await mongoose.connect('mongodb+srv://userAdmin:matheus2006@fiaptecnico.p5s1m.mongodb.net/test')
 }
 
 
